@@ -1,7 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@layer components {
+  .center {
+    @apply flex justify-center items-center text-center;
+  }
+}
 :root {
   --background: #ffffff;
   --foreground: #171717;
