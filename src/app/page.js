@@ -17,11 +17,9 @@ export default function Home() {
           <h1 className="text-xl font-bold">İbrahim Hakkı Ergin</h1>
           <div className="center gap-3 mb-3">
             <a href="https://github.com/06ergin06" target="_blank">
-            <p className="hidden">github</p>
               <LuGithub className="w-6 h-6 hover:opacity-75 hover:bg-zinc-600 hover:rounded-xl transition-all" />
             </a>
             <a href="https://www.linkedin.com/in/hakkiergin" target="_blank">
-            <p className="hidden">linkedin</p>
               <LuLinkedin className="w-6 h-6 hover:opacity-75 hover:bg-blue-500 hover:rounded-xl transition-all" />
             </a>
           </div>
