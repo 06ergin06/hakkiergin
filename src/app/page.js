@@ -1,11 +1,11 @@
 import Image from "next/image";
 import logo from "../../public/webtas.png";
-import icon from "../../public/html5.svg";
 import LinkComp from "@/components/LinkComp";
+import Icons from "@/components/Icons";
 export default function Home() {
   return (
     <main className="center min-h-screen ">
-      <div className="w-8/12 center flex-col bg-zinc-100 dark:bg-[#161B22] relative py-[4.5rem] px-24 rounded-[70px] ">
+      <div className="w-8/12 center flex-col bg-zinc-100 dark:bg-[#161B22] relative py-[4.5rem] px-20 rounded-[70px] ">
         <div className="center flex-col">
           <Image
             src={logo}
@@ -36,8 +36,8 @@ export default function Home() {
             href="https://www.linkedin.com/in/hakkiergin"
           ></LinkComp>
         </div>
-        <div>
-          
+        <div className="mt-5">
+          <Icons />
         </div>
       </div>
     </main>
