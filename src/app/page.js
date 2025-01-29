@@ -26,12 +26,12 @@ export default function Home() {
           <p className="mb-4 font-semibold">
             Hi 👋, I am İbrahim Hakkı Ergin 18 years old software engineering
             student 👨‍🎓. I'm from Türkiye 🇹🇷. I'm improving myself in the
-            software and technology 💻. Also, I'm a content creator. While
-            improving myself, I also try to improve other people. For this
-            purpose, I managed a technology and software forum in 2021. Then I
-            created a Webtas community on Instagram, YouTube and Discord 📱. My
-            hobbies are reading books 🧠, playing chess 🧠 and playing video
-            games 🎮.
+            programming, developing front-end web/mobile apps, and Operating
+            Systems 💻. Also, I was a content creator. While improving myself, I
+            also try to improve other people. For this purpose, I managed a
+            technology and software forum in 2021. Then I created a Webtas
+            community on Instagram, YouTube and Discord 📱. My hobbies are
+            reading books 📖, playing chess 🧠 and playing video games 🎮.
           </p>
         </div>
         <div>
