@@ -5,6 +5,7 @@ export const montserrat = Montserrat({ subsets: ["latin"] });
 export const metadata = {
   title: "İbrahim Hakkı Ergin",
   description: "Who's İbrahim Hakkı Ergin",
+  keywords: ["webtas", "İbrahim Hakkı", "İbrahim Hakkı Ergin"],
 };
 
 export default function RootLayout({ children }) {
