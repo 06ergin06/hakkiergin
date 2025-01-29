@@ -1,7 +1,7 @@
 import Image from "next/image";
 import logo from "../../public/webtas.png";
-import LinkComp from "@/components/LinkComp";
 import Icons from "@/components/Icons";
+import { LuLinkedin, LuGithub } from "react-icons/lu";
 export default function Home() {
   return (
     <main className="center min-h-screen ">
@@ -14,7 +14,15 @@ export default function Home() {
             height={150}
             className="-top-20 absolute"
           />
-          <h1 className="text-xl font-bold mb-4">İbrahim Hakkı Ergin</h1>
+          <h1 className="text-xl font-bold">İbrahim Hakkı Ergin</h1>
+          <div className="center gap-3 mb-3">
+            <a href="https://github.com/06ergin06" target="_blank">
+              <LuGithub className="w-6 h-6 hover:opacity-75 hover:bg-zinc-600 hover:rounded-xl transition-all" />
+            </a>
+            <a href="https://www.linkedin.com/in/hakkiergin" target="_blank">
+              <LuLinkedin className="w-6 h-6 hover:opacity-75 hover:bg-blue-500 hover:rounded-xl transition-all" />
+            </a>
+          </div>
           <p className="mb-4 font-semibold">
             Hi 👋, I am İbrahim Hakkı Ergin 18 years old software engineering
             student 👨‍🎓. I'm from Türkiye 🇹🇷. I'm improving myself in the
@@ -26,17 +34,7 @@ export default function Home() {
             games 🎮.
           </p>
         </div>
-        <div className="center gap-10">
-          <LinkComp
-            name="Github"
-            href="https://github.com/06ergin06"
-          ></LinkComp>
-          <LinkComp
-            name="Linkedin"
-            href="https://www.linkedin.com/in/hakkiergin"
-          ></LinkComp>
-        </div>
-        <div className="mt-5">
+        <div>
           <Icons />
         </div>
       </div>
