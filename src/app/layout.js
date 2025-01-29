@@ -15,8 +15,8 @@ export default function RootLayout({ children }) {
       <body className={`${montserrat.className} antialiased`}>
         {children}
         <Analytics />
-        <footer className="center text-[--foreground]">
-          Coded by İbrahim Hakkı Ergin
+        <footer className="center text-[--foreground] underline">
+          <a href="https://github.com/06ergin06/hakkiergin">The source code of this website</a>
         </footer>
       </body>
     </html>
