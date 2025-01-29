@@ -36,6 +36,9 @@ export default function Home() {
             href="https://www.linkedin.com/in/hakkiergin"
           ></LinkComp>
         </div>
+        <div>
+          
+        </div>
       </div>
     </main>
   );
