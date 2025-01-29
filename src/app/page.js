@@ -4,15 +4,15 @@ import Icons from "@/components/Icons";
 import { LuLinkedin, LuGithub } from "react-icons/lu";
 export default function Home() {
   return (
-    <main className="center min-h-screen ">
-      <div className="w-8/12 center flex-col bg-zinc-100 dark:bg-[#161B22] relative py-[4.5rem] px-20 rounded-[70px] ">
+    <main className="center min-h-screen my-4 ">
+      <div className="w-8/12 center flex-col bg-[#E0E7EF] dark:bg-[#161B22] relative py-[4.5rem] px-20 sm:rounded-[70px] rounded ">
         <div className="center flex-col">
           <Image
             src={logo}
             alt="webtaslogo"
             width={150}
             height={150}
-            className="-top-20 absolute"
+            className="-top-20 absolute sm:block hidden"
           />
           <h1 className="text-xl font-bold">İbrahim Hakkı Ergin</h1>
           <div className="center gap-3 mb-3">

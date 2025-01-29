@@ -11,6 +11,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${montserrat.className} antialiased`}>{children}</body>
+      <footer className="center text-[--foreground]">Coded by İbrahim Hakkı Ergin</footer>
     </html>
   );
 }
