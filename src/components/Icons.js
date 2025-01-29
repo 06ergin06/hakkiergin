@@ -1,4 +1,11 @@
-import { FaHtml5, FaCss3, FaJs, FaJava, FaLinux, FaFlutter } from "react-icons/fa6";
+import {
+  FaHtml5,
+  FaCss3,
+  FaJs,
+  FaJava,
+  FaLinux,
+  FaFlutter,
+} from "react-icons/fa6";
 import { RiNextjsFill } from "react-icons/ri";
 export default function Icons() {
   return (

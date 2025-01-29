@@ -3,3 +3,5 @@
 - Tailwindcss
 - react-icons
 - pnpm
+### Deploy
+- Vercel
