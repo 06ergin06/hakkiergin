@@ -10,8 +10,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${montserrat.className} antialiased`}>{children}</body>
-      <footer className="center text-[--foreground]">Coded by İbrahim Hakkı Ergin</footer>
+      <body className={`${montserrat.className} antialiased`}>
+        {children}
+        <footer className="center text-[--foreground]">
+          Coded by İbrahim Hakkı Ergin
+        </footer>
+      </body>
     </html>
   );
 }
