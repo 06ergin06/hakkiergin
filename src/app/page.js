@@ -14,7 +14,7 @@ export default function Home() {
             height={150}
             className="-top-20 absolute sm:block hidden"
           />
-          <h1 className="text-xl font-bold">İbrahim Hakkı Ergin</h1>
+          <h1 className="md:text-2xl text-xl font-bold">İbrahim Hakkı Ergin</h1>
           <div className="center gap-3 mb-3">
             <a href="https://github.com/06ergin06" target="_blank">
               <LuGithub className="w-6 h-6 hover:opacity-75 hover:bg-zinc-600 hover:rounded-xl transition-all" />
@@ -23,7 +23,7 @@ export default function Home() {
               <LuLinkedin className="w-6 h-6 hover:opacity-75 hover:bg-blue-500 hover:rounded-xl transition-all" />
             </a>
           </div>
-          <p className="mb-4 font-semibold">
+          <p className="mb-4 font-semibold md:text-lg">
             Hi 👋, I am İbrahim Hakkı Ergin, 18 years old.I am from Türkiye 🇹🇷.
             I am a first-year software engineering student at Biruni University
             in İstanbul (2024-2025 academic year) 👨‍🎓. I'm improving my skills in
