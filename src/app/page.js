@@ -24,14 +24,14 @@ export default function Home() {
             </a>
           </div>
           <p className="mb-4 font-semibold">
-            Hi 👋, I am İbrahim Hakkı Ergin 18 years old software engineering
-            student 👨‍🎓. I'm from Türkiye 🇹🇷. I'm improving myself in the
-            programming, developing front-end web/mobile apps, and Operating
-            Systems 💻. Also, I was a content creator. While improving myself, I
-            also try to improve other people. For this purpose, I managed a
-            technology and software forum in 2021. Then I created a Webtas
-            community on Instagram, YouTube and Discord 📱. My hobbies are
-            reading books 📖, playing chess 🧠 and playing video games 🎮.
+            Hi 👋, I am İbrahim Hakkı Ergin, 18 years old.I am from Türkiye 🇹🇷.
+            I am a first-year software engineering student at Biruni University
+            in İstanbul (2024-2025 academic year) 👨‍🎓. I'm improving my skills in
+            programming, front-end web/mobile app development, and Operating
+            Systems 💻. Also, I am a content creator. I managed a technology and
+            software forum in 2021. Then I created a Webtas community on
+            Instagram, YouTube and Discord 📱. My hobbies are reading books 📖,
+            playing chess 🧠 and playing video games 🎮.
           </p>
         </div>
         <div>
