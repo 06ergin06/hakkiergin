@@ -5,7 +5,7 @@ import { LuLinkedin, LuGithub } from "react-icons/lu";
 export default function Home() {
   return (
     <main className="center min-h-screen my-4 ">
-      <div className="w-8/12 center flex-col bg-[#E0E7EF] dark:bg-[#161B22] relative py-[4.5rem] sm:px-20 px-4 sm:rounded-[70px] rounded-2xl ">
+      <div className="sm:w-8/12 w-10/12 center flex-col bg-[#E0E7EF] dark:bg-[#161B22] relative sm:pt-[4.5rem] pt-12 pb-12 sm:px-20 px-4 sm:rounded-[70px] rounded-2xl ">
         <div className="center flex-col">
           <Image
             src={logo}
