@@ -35,6 +35,7 @@ export default function Home() {
           </p>
         </div>
         <div>
+          <h3 className="md:text-lg font-bold mb-1">Skills</h3>
           <Icons />
         </div>
       </div>
