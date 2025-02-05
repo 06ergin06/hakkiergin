@@ -1,6 +1,5 @@
 import "./globals.css";
 import { Montserrat } from "next/font/google";
-import { Analytics } from "@vercel/analytics/react";
 
 export const montserrat = Montserrat({ subsets: ["latin"] });
 export const metadata = {
@@ -14,7 +13,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${montserrat.className} antialiased`}>
         {children}
-        <Analytics />
         <footer className="center text-[--foreground] underline">
           <a href="https://github.com/06ergin06/hakkiergin">The source code of this website</a>
         </footer>
