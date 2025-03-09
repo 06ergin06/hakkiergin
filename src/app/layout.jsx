@@ -4,7 +4,7 @@ import { Montserrat } from "next/font/google";
 export const montserrat = Montserrat({ subsets: ["latin"] });
 export const metadata = {
   title: "İbrahim Hakkı Ergin",
-  description: "Software Engineering Student & Content Creator from İstanbul, Türkiye",
+  description: "Who's İbrahim Hakkı Ergin",
   keywords: ["webtas", "İbrahim Hakkı", "İbrahim Hakkı Ergin", "software engineering", "front-end development"],
   authors: [{ name: "İbrahim Hakkı Ergin" }],
   creator: "İbrahim Hakkı Ergin",
