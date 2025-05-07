@@ -1,7 +1,7 @@
 ## Used technologies
-- Next.js
+- Next.js ( i will swtich vue )
 - Tailwindcss
-- react-icons
+- react-icons 
 - pnpm
 ### Deploy
-- Vercel
+- Netlify
