@@ -1,5 +1,5 @@
 ## Used technologies
-- Next.js ( i will swtich vue )
+- Next.js 
 - Tailwindcss
 - react-icons 
 - pnpm
